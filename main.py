@@ -8,3 +8,9 @@ price3 = 12.95 # grīdas flīzes
 price4 = 19.99 # griestuplāksnes
 price5 = 3.20 # papīra tapetes
 price6 = 0.82 # Viniltapetes krāsojamās
+
+x = int(input("Ievadi istabu skaitu - "))
+p1.error(x, "003")
+
+c = p1.sienaprekinashana(x)
+d = p1.gridaprekinashana(x)
