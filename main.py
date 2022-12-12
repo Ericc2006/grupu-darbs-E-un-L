@@ -65,3 +65,10 @@ elif x == 4:
                                     1 - Logs un Durvis
                                     2- Tikai Durvis
                                     """))
+
+g = p2.aprekinashana(x, vaiirvainav,vaiirvainav2,vaiirvainav3,vaiirvainav4)
+kopistizm = c - g
+p1.error(g, "002")
+p1.error(c, "002")
+p1.error(d, "002")
+p1.error(kopistizm, "001")
