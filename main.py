@@ -14,3 +14,54 @@ p1.error(x, "003")
 
 c = p1.sienaprekinashana(x)
 d = p1.gridaprekinashana(x)
+
+if x == 1:
+    vaiirvainav = int(input("""Vai 1 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav2 = 0
+    vaiirvainav3 = 0
+    vaiirvainav4 = 0
+elif x == 2:
+    vaiirvainav = int(input("""Vai 1 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav2 = int(input("""Vai 2 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav3 = 0
+    vaiirvainav4 = 0
+elif x == 3:
+    vaiirvainav = int(input("""Vai 1 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav2 = int(input("""Vai 2 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav3 = int(input("""Vai 3 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav4 = 0
+elif x == 4:
+    vaiirvainav = int(input("""Vai 1 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav2 = int(input("""Vai 2 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav3 = int(input("""Vai 3 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
+    vaiirvainav4 = int(input("""Vai 4 istabā atrodas :
+                                    1 - Logs un Durvis
+                                    2- Tikai Durvis
+                                    """))
