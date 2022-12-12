@@ -44,3 +44,29 @@ def error(x, kļūdas_nr):
             003 - skaitlis ir mazāks vai vienāds ar 0
             """)
         exit()
+
+def gridaprekinashana(x):
+    if x == 1:
+        print("Ievadi 1 istabas grīdas izmerus")
+        return gridapr()
+    elif x == 2:
+        print("Ievadi 1 istabas grīdas izmerus")
+        x = gridapr()
+        print("Ievadi 2 istabas grīdas izmerus")
+        return  x + gridapr()
+    elif x == 3:
+        print("Ievadi 1 istabas grīdas izmerus")
+        x = gridapr()
+        print("Ievadi 2 istabas grīdas izmerus")
+        c = gridapr()
+        print("Ievadi 3 istabas grīdas izmerus")
+        return  x + c + gridapr()
+    elif x == 4:
+        print("Ievadi 1 istabas grīdas izmerus")
+        x = gridapr()
+        print("Ievadi 2 istabas grīdas izmerus")
+        c = gridapr()
+        print("Ievadi 3 istabas grīdas izmerus")
+        b = gridapr()
+        print("Ievadi 4 istabas grīdas izmerus")
+        return  x + c + b + gridapr()
