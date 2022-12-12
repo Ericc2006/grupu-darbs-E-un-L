@@ -34,3 +34,13 @@ def sienaprekinashana(x):
         b = sienuaprekinasana()
         print("Ievadi 4 istabas sienu izmerus")
         return  x + c + b + sienuaprekinasana()
+
+def error(x, kļūdas_nr):
+    if x <= 0:
+        print("ERORR " + kļūdas_nr)
+        print(""""
+            001 - iegūts nereāls rezultāts(durvju/logu laukums ir lielāks nekā sienu kopējais laukums)
+            002 - ievadīto skaitļu kopsumma ir mazāka vai vienāda ar 0
+            003 - skaitlis ir mazāks vai vienāds ar 0
+            """)
+        exit()
