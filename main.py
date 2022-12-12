@@ -72,3 +72,20 @@ p1.error(g, "002")
 p1.error(c, "002")
 p1.error(d, "002")
 p1.error(kopistizm, "001")
+
+irnav = int(input("""
+        Vai jau ir iepirkti vajadzīgie materiāli
+        1 - Jā
+        2 - Nē
+        """))
+
+s = p2.materiali(irnav)
+p1.aprekinavisu(x,s,kopistizm,d,price,price1,price2,price3,price4,price5,price6)
+
+print(g)
+print(c)
+print(d)
+print(s[0])
+
+
+# p1.istabu()
